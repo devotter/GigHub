@@ -11,6 +11,7 @@
                 @User.Identity.GetUserName() <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
+                <li><a href="@Url.Action("Mine", "Gigs")">My Upcoming Gigs</a></li>
                 <li><a href="@Url.Action("Attending", "Gigs")">Gigs I'm going</a></li>
                 <li><a href="@Url.Action("Index", "Followees")">Artists I'm following</a></li>
                 <li role="separator" class="divider"></li>
